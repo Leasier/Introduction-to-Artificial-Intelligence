@@ -27,11 +27,11 @@ $$
 
 #### 定义：概率密度函数
 
-设一维连续型随机变量 $X$ 的分布函数为 $F$，若在 $\mathbb{R}$ 上可积的非负函数 $f$ 使得 $F(x) = \displaystyle\int_{-\infty}^x f(t) \text{d} t$，则称 $f$ 为 $X$ 的概率密度函数。
+设一维连续型随机变量 $X$ 的分布函数为 $F$，若非负函数 $f$ 使得 $F(x) = \displaystyle\int_{-\infty}^x f(t) \text{d} t$，则称 $f$ 为 $X$ 的概率密度函数。
 
 #### 定义：数学期望
 
-- 设离散型随机变量 $X$ 的分布列为 $P(X = x_k) = p_k \quad (k \in \mathbb{N}_+)$，若级数 $\displaystyle\sum_{k = 1}^{+\infty} x_k p_k$ 绝对收敛，则称之为 $X$ 的数学期望，记作 $E(X)$。
+- 设离散型随机变量 $X$ 的分布列为 $P(X = x_k) = p_k \ (k \in \mathbb{N}_+)$，若级数 $\displaystyle\sum_{k = 1}^{+\infty} x_k p_k$ 绝对收敛，则称之为 $X$ 的数学期望，记作 $E(X)$。
 - 设一维连续型随机变量 $X$ 的概率密度函数为 $f$，若广义积分 $\displaystyle\int_{-\infty}^{+\infty} x f(x) \text{d} x$ 绝对收敛，则称之为 $X$ 的数学期望，同样记作 $E(X)$。
 
 #### 定义：协方差
